@@ -1,0 +1,104 @@
+.container {
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 250px; /* Adjust based on sidebar width */
+  padding: 30px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  flex: 1;
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.chartContainer {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 400px;
+}
+
+.topVideosContainer {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subTitle {
+  color: #34495e;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.videoList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.topVideoCard {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.videoThumbnail {
+  width: 100%; /* Ensure it scales with its container */
+  max-width: 300px; /* Reduced size from 400px to 300px */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.videoTitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.videoDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailColumn {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.videoDetail {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.message {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 1.2rem;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

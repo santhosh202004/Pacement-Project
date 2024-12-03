@@ -1,0 +1,126 @@
+/* App.css */
+
+.container {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 250px; /* Adjust this value based on sidebar width */
+  padding: 20px;
+  width: calc(100% - 250px); /* Adjust width based on sidebar */
+  min-height: 100vh;
+  box-sizing: border-box;
+  transition: margin-left 0.3s;
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.channelInfo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.channelLogo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.channelName {
+  color: #3498db;
+  font-size: 1.5rem;
+}
+
+.subTitle {
+  color: #34495e;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.dataContainer {
+  margin-bottom: 40px;
+}
+
+.scrollableContainer {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.videoTitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.videoDetail {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.chartContainer {
+  margin-top: 20px;
+  height: 400px;
+}
+
+.sliderContainer {
+  margin-bottom: 20px;
+}
+
+.sliderLabel {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.slider {
+  width: 100%;
+  padding: 10px;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e74c3c;
+}
+/* App.css */
+
+/* Existing styles... */
+
+.chartContainer {
+  margin-top: 20px;
+  height: 400px; /* Adjust height as needed */
+  background-color: #f9f9f9; /* Light background color for the chart container */
+  padding: 20px; /* Add padding around the chart */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better separation */
+}
+
+.chartContainer h2 {
+  color: #34495e;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.chartContainer .chart {
+  height: 100%; /* Ensure the chart takes up full height of the container */
+  width: 100%; /* Ensure the chart takes up full width of the container */
+}
